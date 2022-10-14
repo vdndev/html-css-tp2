@@ -1,0 +1,36 @@
+h1 {
+    text-align: center;
+    color: red;
+    font-size: 100px;
+}
+
+h2 {
+    color: blue;
+    font-size: 50px;
+}
+
+p {
+    background-color: lightgray;
+}
+
+strong {
+    font-style: normal;
+    color: yellowgreen;
+}
+
+em {
+    font-size: 2em;
+    font-style: normal;
+    text-decoration: underline;
+    color: orange;
+}
+
+article:nth-last-child(1) p {
+    background-color: pink;
+}
+
+article:nth-child(3) h2 {
+    text-decoration: underline;
+    text-align: right;
+    color: green;
+}
